@@ -1,1 +1,14 @@
+Primary Key: A unique identifier for a record in a table. Each table can have only one primary key, and it cannot contain NULL values.
+Foreign Key: A field (or collection of fields) in one table that uniquely identifies a row in another table. It establishes a relationship between the two tables.
+Candidate Key: A field (or set of fields) that can uniquely identify a record in a table. A table can have multiple candidate keys.
+Composite Key: A primary key composed of multiple columns.
+Alternate Key: A candidate key that is not chosen as the primary key.
+Unique Key: Ensures all values in a column are unique. Unlike the primary key, it can contain NULL values.
 
+How to Determine a Key
+To determine the appropriate key for a table, consider the following:
+
+Uniqueness: Ensure the key uniquely identifies each record.
+Non-nullability: The primary key must not contain NULL values.
+Stability: Choose a key that is unlikely to change over time.
+Simplicity: Prefer simple keys over complex ones for ease of use and understanding.
